@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/bf6a502775.js" crossorigin="anonymous"></script>
+    <title>KP Audio Player</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <span class="header__logo-container">
+                <div class="header__logo">
+                    <div class="logo__line logo__line--dark"></div>
+                    <div class="logo__line logo__line--light"></div>
+                    <div class="logo__line logo__line--color"></div>
+                </div>
+                <h1>Kristofy</h1>
+            </span>
+            
+        </header>
+        <aside class="aside-left">
+            <h2>Find music</h2>
+
+            <span>
+                <input class="search-input" type="text" placeholder="Track, artist, album...">
+                <button class="search-btn">Search</button>
+
+            </span>
+            
+            
+            <section class="aside-left__audio-player">
+                <i class="fa-solid fa-volume-off" id="audio-player__volume"></i>
+                <input type="range" min="0" max="100" value="50" class="slider">
+
+                <section class="audio-player__img-section">
+                </section>
+                <section class="audio-player__control-section">
+                    <span class="audio-player__progress-bar">
+                        <p class="progress-bar__current-time">0:00</p>
+                        <article class="progress-bar__bar">
+                            <article class="progress-bar__filler"></article>
+                        </article>
+                        <p class="progress-bar__total-time">0:00</p>
+                    </span>
+                    <!-- <i  class="fa-solid fa-volume"></i>        -->
+                    <span>
+                        <button class="control-section__btn control-section__btn--rewind"><i class="fa-solid fa-backward"></i></button>
+                        <button class="control-section__btn control-section__btn--play"><i class="fa-solid fa-play"></i></button>
+                        <button class="control-section__btn control-section__btn--forward"><i class="fa-solid fa-forward"></i></button>
+                        <!-- <button class="control-section__btn control-section__btn--stop">Stop</button> -->
+                    </span>
+                </section>
+                <audio>
+                    <!-- <source src=""> -->
+                </audio>
+            </section>
+            
+        </aside>
+        <main>
+            <h3></h3>
+            <hr>
+            <ul class="main__search-results">
+                
+            </ul>
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
