@@ -1,6 +1,6 @@
 // API
 
-const SPOTIFY_END_POINT_URL = "https://api.spotify.com/v1/search"
+// const SPOTIFY_END_POINT_URL = "https://api.spotify.com/v1/search"
 const SPOTIFY_TOKEN_URL = "https://blooming-reef-63913.herokuapp.com/api/token"
 
 
